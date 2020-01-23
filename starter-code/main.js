@@ -4,14 +4,29 @@
 	Each of these animal objects should have a name, a noise that they make,
 	and a makeNoise property that prints out their noise.
 */
+function makeNoise(sound){
+	console.log(sound.noise);
+}
 
-var dog;
+var dog = {
+	noise: "woof",
+	name: "Daisy"
+};
 
-var cat;
+var cat = {
+	noise: "meow",
+	name: "Shadow"
+};
 
-var bird;
+var bird = {
+	noise: "tweet",
+	name: "Blue"
+};
 
-var mouse;
+var mouse = {
+	noise: "sh",
+	name: "Steve"
+};
 
 /*
 	Part 2: Let's use an array to hold all of these animals.
